@@ -56,3 +56,21 @@ ul.nav a:hover {
     grid-column: 2 / span 2;
     padding: 30px;
 }
+.main4 {
+    grid-row: 6;
+    grid-column: 1 / span 2;
+    padding: 30px;
+}
+.main5 {
+    grid-row: 7;
+    grid-column: 2 / span 2;
+    padding: 30px;
+}
+.main6 {
+    grid-row: 8;
+    grid-column: 1 / span 2;
+    padding: 30px;
+}
+body {
+    background-color: rgb(118, 183, 118);
+}
