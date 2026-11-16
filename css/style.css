@@ -70,6 +70,36 @@ ul.nav a:hover {
     grid-column: 2 / span 2;
     padding: 30px;
 }
+.main11 {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
+.main22 {
+    grid-row: 4;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
+.main33 {
+    grid-row: 5;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
+.main44 {
+    grid-row: 6;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
+.main55 {
+    grid-row: 7;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
+.main66 {
+    grid-row: 8;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
 body {
     background-color: rgb(118, 183, 118);
 }
@@ -87,6 +117,24 @@ body {
 }
 .table1 {
     grid-row: 10;
+    grid-column: 1 / span 3;
+    padding: 30px;
+    background-color: rgb(98, 206, 210);
+}
+.table2 {
+    grid-row: 4;
+    grid-column: 1 / span 3;
+    padding: 30px;
+    background-color: rgb(98, 206, 210);
+}
+.table3 {
+    grid-row: 6;
+    grid-column: 1 / span 3;
+    padding: 30px;
+    background-color: rgb(98, 206, 210);
+}
+.table4 {
+    grid-row: 8;
     grid-column: 1 / span 3;
     padding: 30px;
     background-color: rgb(98, 206, 210);
@@ -111,4 +159,19 @@ h1 {
     font-size: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
+}
+.headings2 {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    background-color: rgb(98, 206, 210);
+}
+.headings3 {
+    grid-row: 5;
+    grid-column: 1 / span 3;
+    background-color: rgb(98, 206, 210);
+}
+.headings4 {
+    grid-row: 7;
+    grid-column: 1 / span 3;
+    background-color: rgb(98, 206, 210);
 }
