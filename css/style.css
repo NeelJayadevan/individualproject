@@ -121,6 +121,17 @@ body {
     padding: 30px;
     background-color: rgb(98, 206, 210);
 }
+.table11 {
+    grid-row: 4;
+    grid-column: 1 / span 3;
+    padding: 30px;
+    background-color: rgb(98, 206, 210);
+}
+.headings11 {
+    grid-row: 3;
+    grid-column: 1 / span 3;
+    background-color: rgb(98, 206, 210);
+}
 .table2 {
     grid-row: 4;
     grid-column: 1 / span 3;
@@ -174,4 +185,29 @@ h1 {
     grid-row: 7;
     grid-column: 1 / span 3;
     background-color: rgb(98, 206, 210);
+}
+.main111 {
+    grid-row: 4;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
+.main222 {
+    grid-row: 5;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
+.main333 {
+    grid-row: 6;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
+.main444 {
+    grid-row: 7;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
+.main555 {
+    grid-row: 8;
+    grid-column: 1 / span 3;
+    padding: 30px;
 }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <div style="background-color: rgb(217, 217, 52);" class="nav-menu grid-item nav">
+            <ul class="nav">
+                <li><a href="index.html"><p>Home</p></a></li>
+                <li><a href="clubs.html"><p>Clubs</p></a></li>
+                <li><a href="games.html"><p>Games</p></a></li>
+                <li><a href="links.html"><p>Links</p></a></li>
+                <li><a href="registration.html"><p>Registration</p></a></li>
+            </ul>
+        </div>
+        <div class="grid-item main-img"><img class="image1" src="images/NWC_banner.png">
+            <h1>Northwest Chess — Chess News from Washington, Oregon and Idaho</h1>
+        </div>
+        <div class="grid-item headings2">
+            <h1>Registration Form</h1>
+        </div>
+        <div class="grid-item main111">
+            <label for="name">Enter First and Last Name</label>
+            <br>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Your name here">
+        </div>
+        <div class="grid-item main222">
+            <label for="grade">Select Grade Level</label>
+            <br>
+            <br>
+            <input type="number" id="grade" name="grade" min="0" max="12" step="1" placeholder="Grade">
+        </div>
+        <div class="grid-item main333">
+            <label for="rating">Enter Northwest Scholastic Rating<br>If you haven't played a northwest scholastic tournament or are unrated, please enter 0<br> All existing ratings can be found through this link: <a href="https://ratingsnw.com/ratings.html?utm_source=chatgpt.com">Northwest Chess Ratings</a></label>
+            <br>
+            <br>
+            <input type="number" id="rating" name="rating" min="0" step="1" placeholder="Your rating here">
+        </div>
+        <div class="grid-item main444">
+            <label for="section">Select Section for Participation</label>
+            <br>
+            <br>
+            <select id="section" name="section">
+                <option value="1">K-12 Open</option>
+                <option value="2">K-12 U800</option>
+                <option value="3">K-12 U1000</option>
+                <option value="4">K-12 u1200</option>
+                <option value="5">K-3 Open</option>
+                <option value="6">K-3 U800</option>
+                <option value="7">K-3 U1000</option>
+                <option value="8">K-3 u1200</option>
+                <option value="9">K-5 Open</option>
+                <option value="10">K-5 U800</option>
+                <option value="11">K-5 U1000</option>
+                <option value="12">K-5 u1200</option>
+                <option value="13">6-8 Open</option>
+                <option value="14">6-8 U800</option>
+                <option value="15">6-8 U1000</option>
+                <option value="16">6-8 u1200</option>
+                <option value="17">6-12 Open</option>
+                <option value="18">6-12 U800</option>
+                <option value="19">6-12 U1000</option>
+                <option value="20">6-12 u1200</option>
+                <option value="21">9-12 Open</option>
+                <option value="22">9-12 U800</option>
+                <option value="23">9-12 U1000</option>
+                <option value="24">9-12 u1200</option>
+            </select>
+        </div>
+        <div class="grid-item main555">
+            <label for="schoolname">Enter School Name (Optional)</label>
+            <br>
+            <br>
+            <input type="text" id="schoolname" name="schoolname" placeholder="School name here">
+        </div>
+        <div class="footers grid-item" style="grid-row: 9;">
+            <footer>Redesigned by Neel Jayadevan</footer>
+        </div>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
