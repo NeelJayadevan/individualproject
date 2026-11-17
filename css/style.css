@@ -1,7 +1,6 @@
 
 .nav {
     list-style-type: none;
-    background-color: rgb(217, 217, 52);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -10,6 +9,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+    background-color: rgb(98, 206, 210);
 }
 ul.nav li a {
     display: block;
@@ -210,4 +210,16 @@ h1 {
     grid-row: 8;
     grid-column: 1 / span 3;
     padding: 30px;
+}
+.main666 {
+    grid-row: 9;
+    grid-column: 1 / span 3;
+    padding: 30px;
+}
+button {
+    border: 4px solid black;
+    border-radius: 15%;
+    width: 80px;
+    height: 45px;
+    background-color: rgb(59, 159, 37);
 }
